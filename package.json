@@ -1,0 +1,17 @@
+{
+  "name": "sw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack",
+    "dev": "node dev-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^2.6.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
